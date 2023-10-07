@@ -1,6 +1,6 @@
 # Resumable File Transfer Server
 
-The Resumable File Transfer Server is a Python-based server application that allows clients to download files and resume interrupted downloads from the point of interruption. It provides a convenient way to transfer files over a network connection while ensuring data integrity.
+The Resumable File Transfer Server is a Python-based server application that allows clients to download files and resume interrupted downloads from the point of interruption. It provides a convenient way to transfer files over a network connection while ensuring data integrity. If your client and server are on the same machine then we will be using the same loopback address ( 127.0.0.1 ) and port 5555 for communication. But if you want the server and client to be on separate machine's then just replace the ip address in both server and client code with the actual ip address of server machine ( This will work only if both client and server ) are on the same network.
 
 ## Features
 
